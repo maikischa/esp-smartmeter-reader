@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-An Arduino sketch that reads, decrypts, and republishes data from Wiener Netze smart meters (Landis+Gyr, Iskraemeco, Siemens) over MQTT, primarily for Home Assistant. It targets **both ESP32 and ESP8266** from a single sketch. There is no PlatformIO/CMake — this is a plain Arduino IDE project. See `AGENTS.md` for agent-oriented notes and `README.md` for wiring/setup.
+An Arduino sketch that reads, decrypts, and republishes data from Wiener Netze smart meters (Landis+Gyr, Iskraemeco, Siemens) over MQTT, primarily for Home Assistant. It targets **both ESP32 and ESP8266** from a single sketch. There is no PlatformIO/CMake — this is a plain Arduino IDE project. See `README.md` for wiring/setup.
+
+This repo is a fork of `aldadic/esp-smartmeter-reader` and is kept mergeable with upstream: prefer minimal, upstream-aligned changes; don't restructure it or migrate it to PlatformIO/ESPHome here.
 
 ## Build & test
 
